@@ -14,6 +14,7 @@
 		970575161FE102EE00EC703B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 970575151FE102EE00EC703B /* Assets.xcassets */; };
 		970575191FE102EE00EC703B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 970575171FE102EE00EC703B /* LaunchScreen.storyboard */; };
 		970575241FE102EE00EC703B /* NavigationControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 970575231FE102EE00EC703B /* NavigationControllerTests.swift */; };
+		9705752F1FE10D5500EC703B /* Screen2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9705752E1FE10D5500EC703B /* Screen2ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		9705751F1FE102EE00EC703B /* NavigationControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NavigationControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		970575231FE102EE00EC703B /* NavigationControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationControllerTests.swift; sourceTree = "<group>"; };
 		970575251FE102EE00EC703B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9705752E1FE10D5500EC703B /* Screen2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Screen2ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 			children = (
 				9705750B1FE102EE00EC703B /* AppDelegate.swift */,
 				9705750D1FE102EE00EC703B /* ViewController.swift */,
+				9705752E1FE10D5500EC703B /* Screen2ViewController.swift */,
 				9705750F1FE102EE00EC703B /* Main.storyboard */,
 				970575151FE102EE00EC703B /* Assets.xcassets */,
 				970575171FE102EE00EC703B /* LaunchScreen.storyboard */,
@@ -205,6 +208,7 @@
 				970575141FE102EE00EC703B /* NavigationController.xcdatamodeld in Sources */,
 				9705750E1FE102EE00EC703B /* ViewController.swift in Sources */,
 				9705750C1FE102EE00EC703B /* AppDelegate.swift in Sources */,
+				9705752F1FE10D5500EC703B /* Screen2ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
