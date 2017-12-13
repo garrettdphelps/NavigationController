@@ -43,6 +43,16 @@
                     <view key="view" contentMode="scaleToFill" id="0xp-9w-gpe">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZBV-Nk-PZ3">
+                                <rect key="frame" x="137" y="617" width="101" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Go to screen 3"/>
+                                <connections>
+                                    <segue destination="F5a-Pk-Tg1" kind="show" id="4wB-1K-Zh9"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <viewLayoutGuide key="safeArea" id="lt0-Pv-rLw"/>
                     </view>
@@ -50,6 +60,21 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cEh-CP-V3w" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1158" y="134"/>
+        </scene>
+        <!--Screen3 View Controller-->
+        <scene sceneID="rY9-ib-mqZ">
+            <objects>
+                <viewController id="F5a-Pk-Tg1" customClass="Screen3ViewController" customModule="NavigationController" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="MIb-lL-R28">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="5Ht-FF-0qt"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Q0f-dx-dhJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1910" y="134"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="nzU-MV-7tv">
